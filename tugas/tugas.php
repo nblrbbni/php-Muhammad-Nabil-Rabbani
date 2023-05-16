@@ -9,7 +9,6 @@ function segitiga($size) {
         echo "<br>";   
     }
 }
-
 segitiga(10); 
 
 // Nomor 2
@@ -167,8 +166,6 @@ $circle1->radius = 10;
 
 echo $circle1->calculateArea();
 
-
-
 // Nomor 9
 echo "<br> <br>" . "Nomor 9" . "<br>";
 class Car {
@@ -181,8 +178,8 @@ class Car {
 }
 
 $car1 = new Car();
-$car1->brand = "Civic Type R";
-$car1->year = 2023;
+$car1->brand = "Toyota";
+$car1->year = 2020;
 
 echo $car1->getInfo();
 
